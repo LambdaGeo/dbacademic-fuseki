@@ -6,7 +6,7 @@ services:
     build: .
     #command: load.sh ds
     ports:
-    - "3030:3030"
+    - "80:3030"
     environment:
       - ADMIN_PASSWORD=admin
       - PORT=3030
